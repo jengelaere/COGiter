@@ -1,7 +1,7 @@
 
 #' Fonction de passage d'une table de donnée à la commune vers le millésime le plus récent du COG
 #'
-#' @param .data la table de données à convertire
+#' @param .data la table de données à convertir
 #' @param code_commune le nom de la variable contenant le code commune sur 5 charactères
 #' @param aggrege booléen TRUE si on souhaite réaggréger les colonnes numériques sur la nouvelle carte communale
 #' @param garder_info_supra booléen TRUE si on souhaite garder les informations sur les territoires supra des communes
