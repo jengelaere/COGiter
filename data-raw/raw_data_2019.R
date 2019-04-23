@@ -118,7 +118,7 @@ communes_info_supra<-communes %>%
   filter(TYPECOM=="COM") %>%
   select(DEPCOM,NOM_DEPCOM,DEP,REG) %>%
   mutate(DEPCOM=fct_drop(DEPCOM),
-         NOM_DEPCOM=fct_drop(DEPCOM)) %>%
+         NOM_DEPCOM=fct_drop(NOM_DEPCOM)) %>%
   left_join(communes_epci %>%
               select(DEPCOM,EPCI,NOM_EPCI)) %>%
   left_join(epci_rattachement_reg_dep) %>%
